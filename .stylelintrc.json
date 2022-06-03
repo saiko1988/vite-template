@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier",
+    "stylelint-config-property-sort-order-smacss"
+  ],
+  "rules": {
+    "selector-class-pattern": "^[a-zA-Z]+$",
+    "keyframes-name-pattern": "^[a-zA-Z]+$"
+  }
+}
