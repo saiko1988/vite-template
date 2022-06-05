@@ -21,5 +21,10 @@ module.exports = {
   rules: {
     'react-hooks/rules-of-hooks': 'error', // https://ja.reactjs.org/docs/hooks-rules.html#eslint-plugin
     'react-hooks/exhaustive-deps': 'warn',
+    'react/jsx-filename-extension': [
+      // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+      'error',
+      { extensions: ['.js', '.jsx', 'ts', 'tsx'] },
+    ],
   },
 };
