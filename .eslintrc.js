@@ -7,6 +7,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'plugin:react/jsx-runtime', // https://github.com/jsx-eslint/eslint-plugin-react/blob/HEAD/docs/rules/react-in-jsx-scope.md
     'prettier', // https://prettier.io/docs/en/install.html#eslint-and-other-linters
   ],
   parser: '@typescript-eslint/parser',
