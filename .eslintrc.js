@@ -27,9 +27,8 @@ module.exports = {
       'error',
       { extensions: ['.js', '.jsx', 'ts', 'tsx'] },
     ],
-    'import/no-unresolved': [
+    'import/extensions': [
       // https://github.com/import-js/eslint-plugin-import/blob/v2.26.0/docs/rules/extensions.md
-      // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-unresolved.md
       'error',
       'ignorePackages',
       {
