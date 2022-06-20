@@ -8,6 +8,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'airbnb-typescript', // https://github.com/iamturns/eslint-config-airbnb-typescript
     'plugin:react/jsx-runtime', // https://github.com/jsx-eslint/eslint-plugin-react/blob/HEAD/docs/rules/react-in-jsx-scope.md
     'prettier', // https://prettier.io/docs/en/install.html#eslint-and-other-linters
   ],
@@ -17,6 +18,7 @@ module.exports = {
       jsx: true,
     },
     ecmaVersion: 'latest',
+    project: './tsconfig.json', // https://github.com/iamturns/eslint-config-airbnb-typescript
     sourceType: 'module',
   },
   plugins: ['react', '@typescript-eslint', 'react-hooks'],
