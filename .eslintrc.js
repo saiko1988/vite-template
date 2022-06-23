@@ -9,6 +9,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'airbnb-typescript', // https://github.com/iamturns/eslint-config-airbnb-typescript
+    'airbnb/hooks', // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb hooksについてのルール
     'plugin:react/jsx-runtime', // https://github.com/jsx-eslint/eslint-plugin-react/blob/HEAD/docs/rules/react-in-jsx-scope.md
     'prettier', // https://prettier.io/docs/en/install.html#eslint-and-other-linters
   ],
