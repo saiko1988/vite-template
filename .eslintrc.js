@@ -10,6 +10,14 @@ module.exports = {
     'airbnb',
     'airbnb-typescript', // https://github.com/iamturns/eslint-config-airbnb-typescript
     'airbnb/hooks', // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb hooksについてのルール
+    /**
+     * @typescript-eslintプラグインの推奨設定を追加
+     * https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin
+     * https://github.com/iamturns/eslint-config-airbnb-typescript
+     */
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
+    // end @typescript-eslintプラグインの推奨設定を追加
     'plugin:react/jsx-runtime', // https://github.com/jsx-eslint/eslint-plugin-react/blob/HEAD/docs/rules/react-in-jsx-scope.md
     'prettier', // https://prettier.io/docs/en/install.html#eslint-and-other-linters
   ],
